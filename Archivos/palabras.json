@@ -1,0 +1,154 @@
+{
+    "palabras": [
+        {
+            "tema": "MATEMATICAS",
+            "palabras": [
+                "NUMERO",
+                "OPERACION",
+                "ECUACION",
+                "GEOMETRIA",
+                "CALCULO",
+                "MULTIPLICAR",
+                "DIVIDIR",
+                "MATRICES",
+                "FUNCIONES",
+                "EXPONENTE"
+            ]
+        },
+        {
+            "tema": "CIENCIAS",
+            "palabras": [
+                "BIOLOGIA",
+                "QUIMICA",
+                "FISICA",
+                "EXPERIMENTO",
+                "TEORIA",
+                "ATOMOS",
+                "HIPOTESIS",
+                "LABORATORIO",
+                "ASTRONOMIA",
+                "MICROBIOLOGIA"
+            ]
+        },
+        {
+            "tema": "HISTORIA",
+            "palabras": [
+                "GUERRA",
+                "REVOLUCION",
+                "CIVILIZACION",
+                "GOBERNANTES",
+                "CULTURA",
+                "ARQUEOLOGIA",
+                "COLONIZACION",
+                "INDEPENDENCIA",
+                "MONARQUIA",
+                "RENACIMIENTO"
+            ]
+        },
+        {
+            "tema": "LENGUA",
+            "palabras": [
+                "LECTURA",
+                "ESCRITURA",
+                "GRAMATICA",
+                "VOCABULARIO",
+                "POESIA",
+                "SINTAXIS",
+                "ORTOGRAFIA",
+                "PRONUNCIACION",
+                "SINONIMO",
+                "ANTONIMO"
+            ]
+        },
+        {
+            "tema": "INFORMATICA",
+            "palabras": [
+                "PROGRAMACION",
+                "ALGORITMO",
+                "SOFTWARE",
+                "REDES",
+                "CIBERSEGURIDAD",
+                "NAVEGADOR",
+                "HARDWARE",
+                "COMPUTADORA",
+                "TERMINAL",
+                "ARCHIVO"
+            ]
+        },
+        {
+            "tema": "ARTE",
+            "palabras": [
+                "PINTURA",
+                "ESCULTURA",
+                "MUSICA",
+                "DANZA",
+                "TEATRO",
+                "FOTOGRAFIA",
+                "ARQUITECTURA",
+                "SURREALISMO",
+                "RETRATO",
+                "EXPRESIONISMO"
+            ]
+        },
+        {
+            "tema": "EDUCACION FISICA",
+            "palabras": [
+                "DEPORTE",
+                "EJERCICIO",
+                "SALUD",
+                "NUTRICION",
+                "JUEGO",
+                "GIMNASIA",
+                "FLEXIBILIDAD",
+                "ESTIRAMIENTO",
+                "ENTRENAMIENTO",
+                "RECREACION"
+            ]
+        },
+        {
+            "tema": "ECONOMIA",
+            "palabras": [
+                "FINANZAS",
+                "MERCADO",
+                "PRODUCCION",
+                "CONSUMO",
+                "INVERSION",
+                "BANCO",
+                "MONEDA",
+                "CAPITAL",
+                "IMPUESTOS",
+                "OFERTA"
+            ]
+        },
+        {
+            "tema": "GEOGRAFIA",
+            "palabras": [
+                "CONTINENTE",
+                "PAIS",
+                "CLIMA",
+                "TOPOGRAFIA",
+                "MAPA",
+                "CORDILLERA",
+                "ECOSISTEMA",
+                "OCEANO",
+                "CARTOGRAFIA",
+                "POBLACION"
+            ]
+        },
+        {
+            "tema": "FILOSOFIA",
+            "palabras": [
+                "PENSAMIENTO",
+                "ETICA",
+                "METAFISICA",
+                "EXISTENCIALISMO",
+                "LOGICA",
+                "HUMANISMO",
+                "RAZON",
+                "EMPIRISMO",
+                "MORAL",
+                "AXIOMA"
+            ]
+        }
+    ]
+}
