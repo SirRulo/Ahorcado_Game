@@ -4,6 +4,9 @@ import sys
 import random
 
 def ahorcado_game():
+    # brief: la funcion principal del juego; aqui es donde se resuelve toda la logica; contiene sus variables y llamadas a funciones para su completo funcionamiento.
+    # parametros: -
+    # return: -
     lista_palabras = leer_palabras_json("Ahorcado/Archivos/palabras.json")
 
     # Variables

@@ -9,7 +9,7 @@
 ### Si el jugador adivina las 10 palabras ocultas, GANARA! y a la vez podra guardar sus puntos acumulados ingrsando su nombre de usuario! (max 5 caracteres)
 ### A JUGAR!!!
 ## VIDEO
-* [Ahorcado_pygame.youtube](https://youtu.be/1b0UDCjqYDY)
+* [Ahorcado_pygame.youtube](https://youtu.be/5Ffsp1WHys8)
 ## CREDITOS
 #### Nombre: Barbizan Franco
 #### Legajo: 112380

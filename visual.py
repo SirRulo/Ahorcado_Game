@@ -16,6 +16,10 @@ NEGRO = (0, 0, 0)
 VERDE = (0,255,0)
 
 def dibujar_figura(cant_intentos):
+    # brief: dibuja el muñequito del ahorcado al ir perdiendo intentos o errando en la letra que vaya ingresando el usuario.
+    # parametros:
+    #     cant_intentos: numero de intentos que ira decresiendo al ingresar mal una letra.
+    # return: -
     match(cant_intentos):
         case 8:
             dibujar_linea(PANTALLA, VERDE, 500,300, 530,300,5)

@@ -13,9 +13,19 @@ menu_x = 650
 buttons_y = 600
 
 def generar_superficie(ancho, alto):
+    # brief: genera una superficie con sus medidas.
+    # parametros:
+    #     ancho: medida del ancho de la superficie que se genera.
+    #     alto: medida del alto de la superficie que se genera.
+    # return: una superficie
     return pygame.Surface((ancho, alto))
 
 def convertir_boton(archivo_imagen:str, ancho, alto):
+    # brief: genera y escala por un path de imagen, un boton con superficie.
+    # parametros:
+    #     ancho: medida del ancho del boton que se genera.
+    #     alto: medida del alto del boton que se genera.
+    # return: boton
     boton = generar_superficie(ancho,alto)
     boton = escalar_imagen(archivo_imagen, ancho, alto)
     return boton

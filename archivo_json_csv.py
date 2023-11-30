@@ -2,6 +2,10 @@ import json
 import re
 
 def leer_palabras_json(archivo_json:str):
+    # brief: permite leer el archivo de tipo "JSON" con las palabras y tematicas que hay en ella para luego volverlo una lista.
+    # parametros:
+    #     archivo_json: el path del archivo JSON.
+    # return: lista del archivo JSON
     try:
         with open(archivo_json, "r") as archivo:
             palabras = json.load(archivo)
@@ -11,7 +15,11 @@ def leer_palabras_json(archivo_json:str):
     return lista
 
 def leer_score_csv(archivo_csv:str, lista:list):
-    with open("Ahorcado/Archivos/scores.csv", "r") as archivo:
+    # brief: permite leer el archivo de tipo "CSV" con los puntajes de cada usuario que hay en ella para luego volverlo una lista.
+    # parametros:
+    #     archivo_csv: el path del archivo CSV.
+    # return: lista del archivo CSV
+    with open(archivo_csv, "r") as archivo:
         try:
             for linea in archivo:
                 linea = re.split(r",|\n", linea)
@@ -24,5 +32,10 @@ def leer_score_csv(archivo_csv:str, lista:list):
     return lista
 
 def agregar_usuario_csv(archivo_csv:str, player):
-    with open("Ahorcado/Archivos/scores.csv", "a") as archivo:
+    # brief: permite sobreescribir el archivo de tipo "CSV" agregando un nuevo usuario con su puntaje al ganar el juego.
+    # parametros:
+    #     archivo_csv: el path del archivo CSV.
+    #     player: el nombre del usuario con su puntaje.
+    # return: -
+    with open(archivo_csv, "a") as archivo:
         archivo.write(f"\n{player}")
